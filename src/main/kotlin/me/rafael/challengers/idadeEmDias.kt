@@ -1,14 +1,20 @@
 package me.rafael.challengers
 
-fun main() {
-    var entrada = 800
+import java.util.*
 
-    var anos:Int = entrada/365
-    var meses:Int = (entrada%365)/30
-    var dias:Int  = (entrada%365)%30
+// Idade em Dias
+fun main(args: Array<String>) {
+
+    val scanner = Scanner(System.`in`)
+
+    val entrada: Int = scanner.nextInt()
+
+    val anos:Int = entrada/365
+    val meses:Int = (entrada%365)/30
+    val dias:Int  = (entrada%365)%30
+
 
     println("${anos} ano(s)")
     println("${meses} mes(es)")
     println("${dias} dia(s)")
-
 }
