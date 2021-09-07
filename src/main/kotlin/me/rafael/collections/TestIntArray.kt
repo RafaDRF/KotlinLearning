@@ -9,11 +9,12 @@ fun main() {
     value[2] = 3
     value[3] = 5
     value[4] = 12
-/*
+
+    // iteração no array
     for (v in value){
         println(v)
     }
-*/
+
     value.forEach {
         println(it)
     }
