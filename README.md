@@ -1,2 +1,2 @@
-# KotlinLearning
+# LearningKotlin
 Treinando funcionalidades do Kotlin
